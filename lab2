@@ -2,16 +2,21 @@ Lab Report 2
 ============
 **StringServer(URL Handler and Server)** 
 
-![Image](URLHandler.jpg)
+![Image](URLhandler.jpg)
 
-![Image](Server.jpg)
+![Image](Screenshot 2023-04-23 232303.jpg)
 
 **Calling add on server**
 Simply change the url and add `/add-message?s=note` change note to your custom message
 
 ![Image](hello.jpg)
 
-![Image](helloAndWelcome.jpg)
+Which methods in your code are called?
+The method handleRequest from class URLHandler were called by the main method in StringServer. The relevent arguments were 
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+![Image](Screenshot 2023-04-23 233457.jpg)
 
 **Step 3:** Open terminal in VScode -> view -> terminal
 
