@@ -1,4 +1,6 @@
 # CSE15LabReport2
+Part1
+======
 **StringServer(URL Handler and Server)** 
 
 ![Image](URLhandler.jpg)
@@ -20,6 +22,7 @@ The method handleRequest from class URLHandler were called by the main method in
 The url request was analyzed and the query message stored in field stList. The message "Welcome to Francis' Server" was added to field result.
 The field stList chaned from an empty arrayList to an arrayList with a single element. The field result changed from an empty array to "hello\nWelcome to Francis' Server".
 
-**Step 3:** Open terminal in VScode -> view -> terminal
+Part2
+======
 
 ![Image](terminal.jpg)
