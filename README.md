@@ -25,4 +25,23 @@ The field stList chaned from an empty arrayList to an arrayList with a single el
 Part2
 ======
 
-![Image](terminal.jpg)
+````
+@Test
+  public void testReverseInPlace2()
+  {
+    int[] input = { 3, 6, 9 , 12 };
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{ 12,9, 6, 3 }, input);
+  }
+  ````
+  This input for method reverseInPlace result in a wrong output.
+  ````
+@Test
+  public void testReverseInPlace2()
+  {
+    int[] input = { };
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{0}, input);
+  }
+  ````
+  This input for method reverseInPlace produce the correct output.
