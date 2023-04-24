@@ -48,7 +48,13 @@ Part2
   
   ![Image](wrongReverseInPlace.jpg)
   
+  This is the terminal output for the first input which produce an incorrect output.
+  
   ![Image](rightReverseInPlace.jpg)
+  
+  This is the terminal output for the second input which produce an correct output.
+  
+  The program's symptom is that it produce incorrect output. However, the program worked smoothly for an empty array input.
   
   **Before**
   ````
