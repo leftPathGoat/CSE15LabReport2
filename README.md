@@ -1,6 +1,7 @@
 # CSE15LabReport2
 Part1
 =====
+
 **StringServer(URL Handler and Server)** 
 
 ![Image](URLhandler.jpg)
@@ -81,4 +82,5 @@ Part2
   
   Part3
   =====
+  
   I learned more git command in these two labs. Github desktop was also introduced to me as a useful tool. I didn't know that the files on Github website is stored    locally on my computer. The labs encouraged me to organize files on my computer. 
