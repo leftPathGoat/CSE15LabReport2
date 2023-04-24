@@ -1,6 +1,6 @@
 # CSE15LabReport2
 Part1
-======
+=====
 **StringServer(URL Handler and Server)** 
 
 ![Image](URLhandler.jpg)
@@ -23,7 +23,7 @@ The url request was analyzed and the query message stored in field stList. The m
 The field stList chaned from an empty arrayList to an arrayList with a single element. The field result changed from an empty array to "hello\nWelcome to Francis' Server".
 
 Part2
-======
+=====
 
 ````
 @Test
