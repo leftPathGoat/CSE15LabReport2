@@ -1,1 +1,18 @@
-Step1:
+Lab Report 2
+============
+**StringServer(URL Handler and Server)** 
+
+![Image](URLHandler.jpg)
+
+![Image](Server.jpg)
+
+**Calling add on server**
+Simply change the url and add `/add-message?s=note` change note to your custom message
+
+![Image](hello.jpg)
+
+![Image](helloAndWelcome.jpg)
+
+**Step 3:** Open terminal in VScode -> view -> terminal
+
+![Image](terminal.jpg)
