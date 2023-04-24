@@ -45,3 +45,34 @@ Part2
   }
   ````
   This input for method reverseInPlace produce the correct output.
+  
+  ![Image](wrongReverseInPlace.jpg)
+  
+  ![Image](rightReverseInPlace.jpg)
+  
+  **Before**
+  ````
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ````
+  **After**
+  ````
+  static void reverseInPlace(int[] arr) {
+    int temp;
+    for(int i = 0; i < arr.length/2; i += 1) {
+      temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+  ````
+  The original code did not complete the swap. The program only replaced the first half with second half.
+  The update fix to the program complete the swap by adding a temperary varaible to store data.
+  Then a complete position swap is performed to each element in the array. 
+  
+  Part3
+  =====
+  I learned more git command in these two labs. Github desktop was also introduced to me as a useful tool. I didn't know that the files on Github website is stored    locally on my computer. The labs encouraged me to organize files on my computer. 
