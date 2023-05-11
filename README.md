@@ -48,7 +48,7 @@ Part2
   ````
   This input for method reverseInPlace produce the correct output.
   
-  ![Image](ArraytestFail.jpg)
+  ![Image](GG.jpg)
   
   This is the terminal output for the first input which produce an incorrect output.
   
