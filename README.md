@@ -80,6 +80,9 @@ Part2
   The original code did not complete the swap. The program only replaced the first half with second half. 
   The for loop in the original method starting at index 0, the first element is replaced by the last element. 
   The element at index 0 is lost after the swap. Same procudure error resulting data lost in the first half of the array. 
+  The bug in the multiple elements array input is caused by the incomplete swap.
+  The original array is 3,6,9,12
+  After swap the array is 12,9,9,12 which is incorrect
   The update fix to the program complete the swap by adding a temperary varaible to store data.
   In this way, the method replace the first element with last and last with first. 
   Because we are replacing two elements at the same time, the for loop only need to run til the mid-point of the array.
