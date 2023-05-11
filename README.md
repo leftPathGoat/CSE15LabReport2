@@ -18,7 +18,7 @@ The method handleRequest from class URLHandler were called by the main method in
 The url request was analyzed and the query message stored in field stList. The message "hello" was added to field result.
 The field stList chaned from an empty arrayList to an arrayList with a single element. The field result changed from an empty array to "hello".
 
-![Image](Screenshot 2023-04-23 233457.jpg)
+![Image](Screenshot 2023-04-23 233457 (1).jpg)
 
 The method handleRequest from class URLHandler were called by the main method in StringServer. The relevent argument was the URL input to handleRequest method.
 The url request was analyzed and the query message stored in field stList. The message "Welcome to Francis' Server" was added to field result.
@@ -48,11 +48,11 @@ Part2
   ````
   This input for method reverseInPlace produce the correct output.
   
-  ![Image](wrongReverseInPlace.jpg)
+  ![Image](ArraytestFail.jpg)
   
   This is the terminal output for the first input which produce an incorrect output.
   
-  ![Image](rightReverseInPlace.jpg)
+  ![Image](ArrayTerminalMessageSuccess.jpg)
   
   This is the terminal output for the second input which produce an correct output.
   
@@ -77,8 +77,12 @@ Part2
     }
   }
   ````
-  The original code did not complete the swap. The program only replaced the first half with second half.
+  The original code did not complete the swap. The program only replaced the first half with second half. 
+  The for loop in the original method starting at index 0, the first element is replaced by the last element. 
+  The element at index 0 is lost after the swap. Same procudure error resulting data lost in the first half of the array. 
   The update fix to the program complete the swap by adding a temperary varaible to store data.
+  In this way, the method replace the first element with last and last with first. 
+  Because we are replacing two elements at the same time, the for loop only need to run til the mid-point of the array.
   Then a complete position swap is performed to each element in the array. 
   
   Part3
